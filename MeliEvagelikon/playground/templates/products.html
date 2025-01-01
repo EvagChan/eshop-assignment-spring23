@@ -1,0 +1,564 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/products.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Products.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="shortcut icon" type="image/jpg" href="{% static 'images/favicon.jpg' %}">
+    <title>Μελισσοκομικά Προϊόντα</title>
+    <style>
+      body{
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+</head>
+
+<body>
+<div id="wrapper">
+  <a href="Ευ Αγγελικόν.html"><img src="images/Site_main_image-removebg-preview.png"></a>
+        <header>Τα της <em>Ευ Αγγελικόν</em> κυψέλης Θαύματα</header>
+  <div class="beepouring">
+    <img src="images/depositphotos_124417528-stock-illustration-cartoon-bee-holding-bucket-with.jpg" alt="">
+  </div>
+  <div class="checkout">
+    <h3>Καλάθι</h3>
+    <a href="checkout.html"><img src="https://cdn-icons-png.flaticon.com/512/6172/6172531.png" alt=""></a>
+  </div>
+  <!--product-categories-slider---------------------->
+  <div class="Categories">
+    <strong>Κατηγοριες</strong>
+   <ul id="autoWidth" class="container" class="cs-hidden">
+    <!--box-1--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/Products/μελι-κατηγορια.jpg">
+            </a>
+        </div>
+        <span>Μέλι</span>
+    </li>
+    <!--box-2--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/Products/γυρη.jpg">
+            </a>
+        </div>
+        <span>Γύρη</span>
+    </li>
+    <!--box-3--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/feature_3.jpg">
+            </a>
+        </div>
+        <span>Κυραλλοιφές</span>
+    </li>
+    <!--box-4--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/feature_4.jpg">
+            </a>
+        </div>
+        <span>Lip Balm</span>
+    </li>
+    <!--box-5--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/feature_5.jpg">
+            </a>
+        </div>
+        <span>Μελισοκέρι</span>
+    </li>
+    <!--box-6--------------------->
+    <li class="item">
+        <div class="feature-box">
+            <a href="#">
+                <img src="images/feature_6.jpg">
+            </a>
+        </div>
+        <span>Πρόπολη</span>
+    </li>
+    <li class="item">
+      <div class="feature-box">
+          <a href="#">
+              <img src="images/feature_6.jpg">
+          </a>
+      </div>
+      <span>Βασιλικός Πολτός</span>
+  </li>
+  </ul>
+</div>
+<!--NEW ARRIVAL-------------------------------->
+<section class="new-arrival">
+            
+  <!--heading-------->
+  <div class="arrival-heading">
+      <strong>Μελι</strong>
+      <p>If you got the money we got the honey</p>
+  </div>
+    <!--products----------------------->
+    <div class="product-container">
+        
+      <!--product-box-1---------->
+        <div class="product-box">
+            <!--product-img------------>
+            <div class="product-img">
+                <!--add-cart---->
+                <a href="#" class="add-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                <!--img------>
+              <img src="images/Products/elato.jpg" >
+            </div>
+            <!--product-details-------->
+            <div class="product-details">
+                <a href="#" class="p-name">'Ελατο</a>
+                <span class="p-price">$22.00</span>
+            </div>
+        </div>
+          <!--product-box-2---------->
+          <div class="product-box">
+              <!--product-img------------>
+              <div class="product-img">
+                  <!--add-cart---->
+                <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                <!--img------>
+                <img src="images/Products/peyko.jpg" >
+              </div>
+              <!--product-details-------->
+              <div class="product-details">
+                  <a href="#" class="p-name">Πεύκο</a>
+                  <span class="p-price">$22.00</span>
+              </div>
+          </div>
+        <!--product-box-3---------->
+        <div class="product-box">
+          <!--product-img------------>
+          <div class="product-img">
+              <!--add-cart---->
+              <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+              <!--img------>
+            <img src="images/p-3.png" >
+          </div>
+          <!--product-details-------->
+          <div class="product-details">
+              <a href="#" class="p-name">Θυμάρι</a>
+              <span class="p-price">$22.00</span>
+          </div>
+      </div>
+        <!--product-box-4---------->
+        <div class="product-box">
+          <!--product-img------------>
+          <div class="product-img">
+              <!--add-cart---->
+              <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+              <!--img------>
+            <img src="images/Products/meli anth.jpg" >
+          </div>
+          <!--product-details-------->
+          <div class="product-details">
+              <a href="#" class="p-name">Ανθόμελο</a>
+              <span class="p-price">$22.00</span>
+          </div>
+      </div>
+        <!--product-box-5---------->
+        <div class="product-box">
+          <!--product-img------------>
+          <div class="product-img">
+              <!--add-cart---->
+              <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+              <!--img------>
+            <img src="images/p-5.png" >
+          </div>
+          <!--product-details-------->
+          <div class="product-details">
+              <a href="#" class="p-name">Ρείκι</a>
+              <span class="p-price">$22.00</span>
+          </div>
+      </div>
+        <!--product-box-6---------->
+        <div class="product-box">
+          <!--product-img------------>
+          <div class="product-img">
+              <!--add-cart---->
+              <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+              <!--img------>
+            <img src="images/p-6.png" >
+          </div>
+          <!--product-details-------->
+          <div class="product-details">
+              <a href="#" class="p-name">Κουμαριά</a>
+              <span class="p-price">$22.00</span>
+          </div>
+      </div>
+        <!--product-box-7---------->
+        <div class="product-box">
+          <!--product-img------------>
+          <div class="product-img">
+              <!--add-cart---->
+              <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+              <!--img------>
+            <img src="images/p-7.png" >
+          </div>
+          <!--product-details-------->
+          <div class="product-details">
+              <a href="#" class="p-name">Βελανιδιά</a>
+              <span class="p-price">$22.00</span>
+          </div>
+      </div>
+        <!--product-box-8---------->
+        <div class="product-box">
+          <!--product-img------------>
+          <div class="product-img">
+              <!--add-cart---->
+              <a href="#" class="add-cart">
+                  <i class="fas fa-shopping-cart"></i>
+              </a>
+              <!--img------>
+            <img src="images/p-8.png" >
+          </div>
+          <!--product-details-------->
+          <div class="product-details">
+              <a href="#" class="p-name">Καστανιά</a>
+              <span class="p-price">$22.00</span>
+          </div>
+      </div>
+    </div>
+</section>
+
+<section class="Γύρη">
+  <div class="arrival-heading">
+    <strong>Γύρη</strong>
+    <p>If you got the money we got the honey</p>
+  </div>
+  <div class="product-container">
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/γυρη-μικρη.jpg" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Νώπη</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/γυρη-μεγάλη.jpg" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Νώπη</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Αποξηραμένη</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Bee-Bread</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+  </div>
+</section> 
+<section class="Κυραλλοιφές">
+  <div class="arrival-heading">
+    <strong>Κυραλλοιφές</strong>
+    <p>If you got the money we got the honey</p>
+  </div>
+  <div class="product-container">
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Κλασσική</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Κλασσική</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Έλαιο νυχτολούλοδο</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Έλαιο νυχτολούλοδο</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="Lip-balm">
+  <div class="arrival-heading">
+    <strong>Lip-Balm</strong>
+    <p>That extra drip for your lip</p>
+  </div>
+  <div class="product-container">
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Μαστίχα Μανταρίνη</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Μάνγκο</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="Μελισοκέρι">
+  <div class="arrival-heading">
+    <strong>Μελισοκέρι</strong>
+    <p>If you got the money we got the honey</p>
+  </div>
+  <div class="product-container">
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Από Απολέπισμα</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Από Απολέπισμα</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Απλό</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name"> Απλό</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="Πρόπολη">
+  <div class="arrival-heading">
+    <strong>Πρόπολη</strong>
+    <p>If you got the money we got the honey</p>
+  </div>
+  <div class="product-container">
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name">Βάμα Πρόπολης</a>
+          <span class="p-price">$22.00</span>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section class="Βασιλικός-Πολτός">
+  <div class="arrival-heading">
+    <strong>Βασιλικός Πολτός</strong>
+    <p>If you got the money we got the honey</p>
+  </div>
+  <div class="product-container">
+
+    <div class="product-box">
+      <!--product-img------------>
+      <div class="product-img">
+          <!--add-cart---->
+          <a href="#" class="add-cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          <!--img------>
+        <img src="images/Products/" >
+      </div>
+      <!--product-details-------->
+      <div class="product-details">
+          <a href="#" class="p-name">Βασιλικός Πολτός</a>
+          <span class="p-price">$22.00</span>
+      </div>
+</section>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Πάνω</button>
+<script>
+  let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</body>
+</html>

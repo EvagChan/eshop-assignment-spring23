@@ -1,0 +1,42 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/register.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="shortcut icon" type="image/jpg" href="{% static 'images/favicon.jpg' %}">
+    <title>Εγγραφή</title>
+</head>
+
+<body>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Εγγραφή</h1>
+          <p>Παρακαλώ συμπληρώστε την παρακάτω φόρμα για να κάντετε εγγραφή</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Συμπληρώστε το email σας" name="email" required>
+      
+          <label for="psw"><b>Κωδικός</b></label>
+          <input type="password" placeholder="Γράψτε κωδικό" name="psw" required>
+      
+          <label for="psw-repeat"><b>Επανάληψη Κωδικού</b></label>
+          <input type="password" placeholder="Επαναλάβετε τον κωδικό" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>Δημιουργώντας προφίλ συμφωνείτε με τους παρακάτω <a href="#" style="color:dodgerblue">Όρους και Προϋποθέσεις</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Ακύρωση</button>
+            <button type="submit" class="signupbtn">Εγγραφή</button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>
